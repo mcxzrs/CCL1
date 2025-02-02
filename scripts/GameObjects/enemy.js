@@ -83,7 +83,7 @@ class Enemy extends BaseObject{
         this.startY = global.blockSize*3;
         this.animationData.loop = true;
         global.enemies.push(this);
-        this.loadImages(["../Images/fire.png"]);
+        this.loadImages(["/Images/fire.png"]);
 
     }
 }
