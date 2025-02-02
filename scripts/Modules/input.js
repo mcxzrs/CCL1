@@ -26,11 +26,6 @@ function move(event) {
                 global.playerObject.physicsData.dashDecay = 0;
             }
             break;
-        case "z":
-            console.log(global.playerObject);
-            console.log(global.coins)
-            global.respawnCoins(0)
-            break;
         case " ":
             if (!global.panicRoom){
                 global.playerObject.jump();

@@ -97,9 +97,6 @@ global.respawnCoins = function(forbiddenIndex){
             global.allGameObjects[i].active = true;
         }
     }
-    console.log(`trying to respawn: ${respawnIndex}`)
-    console.log(`can not respawn and just killed: ${forbiddenIndex}`)
-    console.log("---------")
 }
 
 global.detectBoxCollision = function (gameObject1, gameObject2) {

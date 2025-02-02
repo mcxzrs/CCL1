@@ -182,13 +182,12 @@ class BaseObject {
             this.physicsData.dashDecay = 0;
             this.xVelocity = this.prevVelocityX;
         }
-        
     }
 
     jump = function(){
         if(this.physicsData.isGrounded){
             this.physicsData.fallSpeed = -this.physicsData.jumpForce;
-            this.y -=10;
+            this.y -= 10;
         }
     }
 

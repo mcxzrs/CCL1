@@ -32,11 +32,6 @@ function gameLoop(totalRunningTime) {
             scoreCounter.drawCounter();
             global.allGameObjects[i].draw();
         }
-        // if (!global.allGameObjects[i].active && global.allGameObjects[i].name == "Coin"){
-        //     let reviveIndex = Math.floor(Math.random() * global.coins.length)
-        //     console.log(reviveIndex)
-        //     console.log(global.allGameObjects[i].index)
-        // }
 
     }
     
