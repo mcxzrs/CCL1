@@ -11,6 +11,17 @@ class Enemy extends BaseObject{
     startX = 0;
     startY = 0;
 
+    animationData = {
+        "spriteSheetOffset": 0,
+        "animationSprites": [],
+        "timePerSprite": 0.1,
+        "currentSpriteElapsedTime": 0,
+        "firstSpriteIndex": 0,
+        "lastSpriteIndex": 4,
+        "currentSpriteIndex": 0,
+        "loop": true,
+    };
+
     update = function () {
         this.x += this.xVelocity * global.deltaTime;
         this.y += this.yVelocity * global.deltaTime;
@@ -83,7 +94,7 @@ class Enemy extends BaseObject{
         this.startY = global.blockSize*3;
         this.animationData.loop = true;
         global.enemies.push(this);
-        this.loadImages(["/Images/fire.PNG"]);
+        this.loadImagesFromSpritesheet("/Images/fire.PNG", 5, 1);
 
     }
 }

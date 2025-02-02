@@ -5,6 +5,7 @@ import {Coin} from "../GameObjects/collectible.js"
 import {Enemy} from "../GameObjects/enemy.js";
 import {map} from "../GameObjects/map.js";
 import {scoreCounter} from "../GameObjects/scoreCounter.js";
+import {Panic_room} from "../GameObjects/panicroom.js";
 
 function gameLoop(totalRunningTime) {
     global.deltaTime = totalRunningTime - global.prevTotalRunningTime; // Time in milliseconds between frames
@@ -44,6 +45,7 @@ function gameLoop(totalRunningTime) {
 
 function setupGame() {
     global.score = 0;
+    new Panic_room(0*global.blockSize, 18*global.blockSize);
     global.playerObject = new Player(2*global.blockSize, 20*global.blockSize, 2*global.blockSize, 2*global.blockSize);
     global.enemy = new Enemy(13*global.blockSize, 19*global.blockSize)
     for (let i = 0; i < map.length; i++){
