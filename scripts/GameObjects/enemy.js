@@ -94,7 +94,7 @@ class Enemy extends BaseObject{
         this.startY = global.blockSize*3;
         this.animationData.loop = true;
         global.enemies.push(this);
-        this.loadImagesFromSpritesheet("/Images/fire.PNG", 5, 1);
+        this.loadImagesFromSpritesheet("/Images/fire.png", 5, 1);
 
     }
 }

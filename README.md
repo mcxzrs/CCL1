@@ -42,9 +42,9 @@ Below are the sprites used to create characters and objects in the game:
 
 ### Enemy and Collectibles:
 <div style="text-align: center;">
-  <img src="/Images/fire.PNG" alt="Enemy Spritesheet" width="500">
+  <img src="/Images/fire.png" alt="Enemy Spritesheet" width="500">
   <p>Fire animation</p>
-  <img src="/Images/coin.PNG"
+  <img src="/Images/coin.png"
   alt="Collectible Spritesheet"
   width="500">
   <p>Collectible animation</p>
