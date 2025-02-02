@@ -22,7 +22,7 @@ class Coin extends BaseObject{
         this.animationData.loop = true;
         this.index = global.coins.length + 1
         global.coins.push(this.index);
-        this.loadImagesFromSpritesheet("../Images/coin.png", 5, 1);
+        this.loadImagesFromSpritesheet("/Images/coin.png", 5, 1);
     }
 }
 

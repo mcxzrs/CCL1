@@ -9,7 +9,7 @@ class Wall extends BaseObject {
         super(x, y, global.blockSize, global.blockSize);
         // this.animationData.loop = false
         this.tileType = Math.floor(Math.random() * 4 + 1)
-        this.loadImages([`../Images/tiles/tiles${this.tileType}.png`]);
+        this.loadImages([`/Images/tiles/tiles${this.tileType}.png`]);
     }
 }
 
