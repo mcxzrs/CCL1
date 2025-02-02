@@ -1,13 +1,13 @@
-# 🎮 **Game Title** 
+# 🔥 **DuneFlare** 
 
-> **Short Pitch**: A brief and catchy description of your game. Highlight the concept, genre, and key features.
+> **Short Pitch**:
 > 
-> *Example:* "Explore an alien planet in this retro-inspired platformer where gravity is your greatest ally—or enemy!"
+> "Take control of a lonely wanderer aimed to collect as many golden rings as you can while dodging the fire"
 
 ---
 
 ## 🌐 **Play the Game**
-[Click here to play the game!](https://your-github-username.github.io/repository-name)
+[Click here to play the game!](https://cc241047-21009.php.fhstp.cc/)
 
 ---
 
@@ -15,16 +15,16 @@
 
 ### Main Gameplay:
 <div style="text-align: center;">
-  <img src="gameplay.png" alt="Gameplay Screenshot" width="600">
-  <p>*Figure 1: Example of gameplay in action.*</p>
+  <img src="/Images/gameplay.png" alt="Gameplay Screenshot" width="600">
+  <p>Example of gameplay in action</p>
 </div>
 
 ---
 
 ### Menu and UI:
 <div style="text-align: center;">
-  <img src="menu.png" alt="Menu UI Screenshot" width="600">
-  <p>*Figure 2: Menu and user interface.*</p>
+  <img src="/Images/screenshot.png" alt="UI Screenshot" width="600">
+  <p>Menu and user interface</p>
 </div>
 
 ---
@@ -34,16 +34,20 @@ Below are the sprites used to create characters and objects in the game:
 
 ### Player Character:
 <div style="text-align: center;">
-  <img src="playersheet.png" alt="Player Spritesheet" width="500">
-  <p>*Figure 3: Player character animations.*</p>
+  <img src="/Images/player/AnimationSheetCharacter.PNG" alt="Player Spritesheet" width="500">
+  <p>*Player character animations*</p>
 </div>
 
 ---
 
-### Enemies and NPCs:
+### Enemy and Collectibles:
 <div style="text-align: center;">
-  <img src="enemysheet.png" alt="Enemy Spritesheet" width="500">
-  <p>*Figure 4: Enemy animations.*</p>
+  <img src="/Images/fire.PNG" alt="Enemy Spritesheet" width="500">
+  <p>Fire animation</p>
+  <img src="/Images/coin.PNG"
+  alt="Collectible Spritesheet"
+  width="500">
+  <p>Collectible animation</p>
 </div>
 
 ---
