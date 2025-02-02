@@ -152,7 +152,7 @@ class Player extends BaseObject{
         super(x, y, width, height);
         this.startX = global.blockSize*15;
         this.startY = global.blockSize*15;
-        this.loadImagesFromSpritesheet("/Images/player/AnimationSheet_Character.png", 8, 18);
+        this.loadImagesFromSpritesheet("/Images/player/AnimationSheetCharacter.PNG", 8, 18);
     }
 }
 

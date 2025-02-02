@@ -12,7 +12,7 @@ body{
 }
 
 canvas{
-    background-image: url("./Images/background.png");
+    background-image: url("/Images/background.PNG");
     font-family:"Jacquard 24", serif;
     background-size: contain;
     background-repeat: no-repeat;
