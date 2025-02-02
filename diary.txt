@@ -1,0 +1,2 @@
+3 day
+    i fucked with animation and added switchable animation function, gotta fix the jump problem tomorrow: player isn't registered as leaving the ground when jumping sometimes
